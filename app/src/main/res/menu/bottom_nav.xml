@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/feedback"
+        android:icon="@drawable/baseline_feedback_24"
+        android:title="Обратная связь" />
+    <item
+        android:id="@+id/question"
+        android:icon="@drawable/outline_indeterminate_question_box_24"
+        android:title="Вопрос" />
+    <item
+        android:id="@+id/notification"
+        android:icon="@drawable/outline_circle_notifications_24"
+        android:title="Уведомление" />
+
+</menu>
