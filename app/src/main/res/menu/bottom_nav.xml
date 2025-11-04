@@ -7,7 +7,7 @@
     <item
         android:id="@+id/question"
         android:icon="@drawable/outline_indeterminate_question_box_24"
-        android:title="Вопрос" />
+        android:title="Тестирование" />
     <item
         android:id="@+id/notification"
         android:icon="@drawable/outline_circle_notifications_24"

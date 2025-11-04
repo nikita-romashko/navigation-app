@@ -75,14 +75,15 @@ public class FeedbackFragment extends Fragment {
             String fullName = fullNameText.getText().toString().trim();
 
             if (!email.isEmpty() && !fullName.isEmpty()) {
-                Toast.makeText(getContext(), "ФИО: " + fullName + "\nEmail: " + email,
-                        Toast.LENGTH_SHORT).show();
                 emailText.setText("");
                 fullNameText.setText("");
+                FeedbackDialogFragment dialog = new FeedbackDialogFragment(fullName, email);
+                dialog.show(getParentFragmentManager(), "custom");
             } else {
                 Toast.makeText(getContext(), "Заполните все поля", Toast.LENGTH_SHORT).show();
             }
-        });;
+        });
+        ;
         // Inflate the layout for this fragment
         return view;
     }
